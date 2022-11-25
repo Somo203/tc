@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald:wght@200&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #373434;
+    overflow: hidden;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+input[type="file"] {
+    display: none;
+}
+.page-content-wrapper{
+    /* align-items: center;
+    justify-content: center; */
+    padding: 5px;
+    margin-left: 1000px;
+}
+
+/* 
+section{
+    padding: 5px;
+    margin-right: 1000px;
+} */
+.head {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="promotion.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body>
+    <div class="container">
+        <header>Promotion Form</header>
+
+        <form id="signup" class="form">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="username">Full Name</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your name" required autocomplete="off">
+                            <small></small>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="date">Date of Birth</label>
+                            <input type="date" name="date" id="date" placeholder="Enter birth date" required autocomplete="off">
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="Enter your email" required autocomplete="off">
+                            <small></small>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="phone">Mobile Number</label>
+                            <input type="text" name="phone" id="phone" placeholder="Enter mobile number" required  autocomplete="off">
+                            <small></small>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Position</label>
+                            <input type="text" placeholder="Position" required autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="id">Employee ID</label>
+                            <input type="text" placeholder="Enter Employee ID" required autocomplete="off">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grade</label>
+                            <input type="number" placeholder="Enter ID number" required autocomplete="off">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Department ID</label>
+                            <input type="text" placeholder="Enter department ID" required autocomplete="off">
+                        </div>
+                    </div>
+
+                    <button class="sumbit" type="submit" value="Sign Up">
+                        <span class="btnText">Submit</span>
+                    </button>
+                    <a href="dash.html" class="previous">&laquo; Back</a>
+                </div> 
+            </div>
+
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="promotion.js"></script>
+</body>
+</html>
